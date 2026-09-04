@@ -392,7 +392,7 @@ sqlite_execute:
 sqlite_execute: UPDATE draws SET invoiced = 1 WHERE invoiced = 0 AND status = 'completed' AND client_id = 1;
 sqlite_query:   SELECT invoice_number, due_date, draw_count, total_amount FROM invoices
                 WHERE invoice_id = last_insert_rowid();
-  → INV-2026-0001 | 2026-09-22 | 4 | 220.00
+  → INV-2026-0001 | 2026-09-28 | 4 | 220.00
 ```
 
 > Here's the Riverside invoice. Patient codes only.
