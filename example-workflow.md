@@ -54,7 +54,7 @@ form_create:
    "options": ["None", "Hematoma", "Faint", "Other"]},
   {"type": "textarea", "label": "Complication notes", "identifier": "complication_notes",
    "show_if": {"field": "complications", "op": "not_equals", "value": "none", "action": "show"}},
-  {"type": "photo", "label": "Tube labels", "identifier": "tube_labels", "max_images": 2}
+  {"type": "photo", "label": "Tube labels", "identifier": "tube_labels", "max_images": 2, "stamp_photos": true}
 ]
 ```
 
